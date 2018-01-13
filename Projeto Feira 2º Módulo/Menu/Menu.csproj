@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7FC59DDF-9A43-405A-BA4E-96CB8DA2ED2C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Menu</RootNamespace>
+    <AssemblyName>Parada Obrigatória</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icone.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FrmPsicFim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPsicFim.Designer.cs">
+      <DependentUpon>FrmPsicFim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPsicT5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPsicT5.designer.cs">
+      <DependentUpon>FrmPsicT5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCFC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCFC.Designer.cs">
+      <DependentUpon>FrmCFC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCFCFim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCFCFim.Designer.cs">
+      <DependentUpon>FrmCFCFim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMenu.Designer.cs">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPsicT2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPsicT2.Designer.cs">
+      <DependentUpon>FrmPsicT2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPsicT1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPsicT1.Designer.cs">
+      <DependentUpon>FrmPsicT1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPsicT3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPsicT3.Designer.cs">
+      <DependentUpon>FrmPsicT3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPsicT4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPsicT4.Designer.cs">
+      <DependentUpon>FrmPsicT4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVistaT4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVistaT4.Designer.cs">
+      <DependentUpon>FrmVistaT4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVistaFim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVistaFim.Designer.cs">
+      <DependentUpon>FrmVistaFim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVistaT1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVistaT1.Designer.cs">
+      <DependentUpon>FrmVistaT1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVistaT3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVistaT3.Designer.cs">
+      <DependentUpon>FrmVistaT3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVistaT2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVistaT2.Designer.cs">
+      <DependentUpon>FrmVistaT2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmVistaT5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmVistaT5.designer.cs">
+      <DependentUpon>FrmVistaT5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmPsicFim.resx">
+      <DependentUpon>FrmPsicFim.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPsicT5.resx">
+      <DependentUpon>FrmPsicT5.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCFC.resx">
+      <DependentUpon>FrmCFC.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCFCFim.resx">
+      <DependentUpon>FrmCFCFim.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMenu.resx">
+      <DependentUpon>FrmMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPsicT2.resx">
+      <DependentUpon>FrmPsicT2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPsicT1.resx">
+      <DependentUpon>FrmPsicT1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPsicT3.resx">
+      <DependentUpon>FrmPsicT3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPsicT4.resx">
+      <DependentUpon>FrmPsicT4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVistaFim.resx">
+      <DependentUpon>FrmVistaFim.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVistaT1.resx">
+      <DependentUpon>FrmVistaT1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVistaT3.resx">
+      <DependentUpon>FrmVistaT3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVistaT2.resx">
+      <DependentUpon>FrmVistaT2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVistaT4.resx">
+      <DependentUpon>FrmVistaT4.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmVistaT5.resx">
+      <DependentUpon>FrmVistaT5.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgVista0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgPisic0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgPisic1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgPisic128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgVista1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgVista128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgCFC0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgCFC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ImgCFC128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icone.ico" />
+    <None Include="Resources\FundoFim.jpg" />
+    <None Include="Resources\A-3B.png" />
+    <None Include="Resources\R-11.png" />
+    <None Include="Resources\R-4B.png" />
+    <None Include="Resources\R-2.png" />
+    <None Include="Resources\I15.png" />
+    <None Include="Resources\A-42B.png" />
+    <None Include="Resources\A-42A.png" />
+    <None Include="Resources\A-14.png" />
+    <None Include="Resources\A-13B.png" />
+    <None Include="Resources\A-10A.png" />
+    <None Include="Resources\A-5B.png" />
+    <None Include="Resources\princ.PNG" />
+    <None Include="Resources\princ2.PNG" />
+    <None Include="Resources\imagem.png" />
+    <None Include="Resources\imagem.bmp" />
+    <None Include="Resources\08.bmp" />
+    <None Include="Resources\07.bmp" />
+    <None Include="Resources\6.PNG" />
+    <None Include="Resources\06.bmp" />
+    <None Include="Resources\5.PNG" />
+    <None Include="Resources\05.bmp" />
+    <None Include="Resources\4.PNG" />
+    <None Include="Resources\04.bmp" />
+    <None Include="Resources\03.bmp" />
+    <None Include="Resources\2.PNG" />
+    <None Include="Resources\02.bmp" />
+    <None Include="Resources\1.PNG" />
+    <None Include="Resources\01.bmp" />
+    <None Include="Resources\Cadeado.png" />
+    <None Include="Resources\ImgVolante128.png" />
+    <None Include="Resources\ImgVolante1.png" />
+    <None Include="Resources\ImgVolante0.png" />
+    <None Include="Resources\Encaixes.png" />
+    <None Include="Resources\Carteira.png" />
+    <None Include="Resources\Peça6.png" />
+    <None Include="Resources\Peça5.png" />
+    <None Include="Resources\Peça4.png" />
+    <None Include="Resources\Peça3.png" />
+    <None Include="Resources\Peça2.png" />
+    <None Include="Resources\Peça1.png" />
+    <None Include="Resources\Dominó1.png" />
+    <None Include="Resources\Certo.png" />
+    <None Include="Resources\DaltonN5.gif" />
+    <None Include="Resources\DaltonN2.gif" />
+    <None Include="Resources\DaltonN29.gif" />
+    <None Include="Resources\grade_z.png" />
+    <None Include="Resources\grade_h.png" />
+    <None Include="Resources\grade_e.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

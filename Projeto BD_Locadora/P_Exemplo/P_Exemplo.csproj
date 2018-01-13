@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5FE9BA71-F2A0-4726-B071-759151D508B0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>P_Exemplo</RootNamespace>
+    <AssemblyName>P_Exemplo</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Conexao.cs" />
+    <Compile Include="FrmCadCli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadCli.Designer.cs">
+      <DependentUpon>FrmCadCli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadDist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadDist.Designer.cs">
+      <DependentUpon>FrmCadDist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadEmp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadEmp.Designer.cs">
+      <DependentUpon>FrmCadEmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadFilm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadFilm.Designer.cs">
+      <DependentUpon>FrmCadFilm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadFunc.Designer.cs">
+      <DependentUpon>FrmCadFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCadGen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCadGen.Designer.cs">
+      <DependentUpon>FrmCadGen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsCli.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsCli.Designer.cs">
+      <DependentUpon>FrmConsCli.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsDist.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsDist.Designer.cs">
+      <DependentUpon>FrmConsDist.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsEmp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsEmp.Designer.cs">
+      <DependentUpon>FrmConsEmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsFilm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsFilm.Designer.cs">
+      <DependentUpon>FrmConsFilm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsFunc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsFunc.Designer.cs">
+      <DependentUpon>FrmConsFunc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsGen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsGen.Designer.cs">
+      <DependentUpon>FrmConsGen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMain.Designer.cs">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmCadCli.resx">
+      <DependentUpon>FrmCadCli.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadDist.resx">
+      <DependentUpon>FrmCadDist.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadEmp.resx">
+      <DependentUpon>FrmCadEmp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadFilm.resx">
+      <DependentUpon>FrmCadFilm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadFunc.resx">
+      <DependentUpon>FrmCadFunc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCadGen.resx">
+      <DependentUpon>FrmCadGen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsCli.resx">
+      <DependentUpon>FrmConsCli.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsDist.resx">
+      <DependentUpon>FrmConsDist.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsEmp.resx">
+      <DependentUpon>FrmConsEmp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsFilm.resx">
+      <DependentUpon>FrmConsFilm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsFunc.resx">
+      <DependentUpon>FrmConsFunc.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmConsGen.resx">
+      <DependentUpon>FrmConsGen.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMain.resx">
+      <DependentUpon>FrmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

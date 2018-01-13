@@ -1,0 +1,16 @@
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\bin\Debug\Horário Aula.exe.config
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horario Aula.csprojResolveAssemblyReference.cache
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horario_Aula.ButtonMain.resources
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horario_Aula.FrmEtapa2.resources
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horario_Aula.FrmCarregandoEtapa.resources
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horario_Aula.FrmCriadorHorario.resources
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horario_Aula.FrmEtapa1.resources
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horario_Aula.FrmLoadScreen.resources
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horario_Aula.FrmMain.resources
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horario_Aula.Properties.Resources.resources
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horario Aula.csproj.GenerateResource.Cache
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\bin\Debug\Horário Aula.exe
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\bin\Debug\Horário Aula.pdb
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\bin\Debug\MySql.Data.dll
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horário Aula.exe
+C:\Users\André\Documents\Linguagens\C#\Horario Aula\Horário Aula\obj\x86\Debug\Horário Aula.pdb

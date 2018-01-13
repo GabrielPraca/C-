@@ -1,0 +1,10 @@
+E:\Linguagens\C#\MySql Banco Online\MySql\bin\Debug\MySql.exe.config
+E:\Linguagens\C#\MySql Banco Online\MySql\bin\Debug\MySql.exe
+E:\Linguagens\C#\MySql Banco Online\MySql\bin\Debug\MySql.pdb
+E:\Linguagens\C#\MySql Banco Online\MySql\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Linguagens\C#\MySql Banco Online\MySql\obj\x86\Debug\MySql.FrmMain.resources
+E:\Linguagens\C#\MySql Banco Online\MySql\obj\x86\Debug\MySql.Properties.Resources.resources
+E:\Linguagens\C#\MySql Banco Online\MySql\obj\x86\Debug\ResGen.read.1.tlog
+E:\Linguagens\C#\MySql Banco Online\MySql\obj\x86\Debug\ResGen.write.1.tlog
+E:\Linguagens\C#\MySql Banco Online\MySql\obj\x86\Debug\MySql.exe
+E:\Linguagens\C#\MySql Banco Online\MySql\obj\x86\Debug\MySql.pdb
